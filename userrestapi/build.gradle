@@ -4,9 +4,11 @@ buildscript {
 	}
 	repositories {
 		mavenCentral()
+		//docker part starts
 		maven {
       		url "https://plugins.gradle.org/m2/"
     	}
+    	//docker part ends
 	}
 	dependencies {
 		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
